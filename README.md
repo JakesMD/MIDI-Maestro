@@ -77,6 +77,8 @@ Pieces that work best:
 
 You can of course use any piece you like.
 
+If your file has a different extension than `.midi` (e.g. `.mid`, `.MIDI`, `.MID`) you'll need to rename it.
+
 Depending on the way the MIDI file is formatted it might not work as expected (MIDI files from MuseScore are known to have issues). You can try importing the MIDI file into your DAW and exporting it again. MIDI files of type 0 with a high resolution work best.
 
 If you find that some notes are played together instead of individually or vice versa, you can try tuning the `SENSITIVITY` at the top of `main.py`.
